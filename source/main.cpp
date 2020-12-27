@@ -293,7 +293,7 @@ bool isMoveValid(Chess::Position present, Chess::Position future, Chess::EnPassa
                {
                   createNextMessage("Castling to the queen side is not allowed.\n");
                   return false;
-               }
+               } 
                else
                {
                   // Check if the square that the king skips is not attacked
